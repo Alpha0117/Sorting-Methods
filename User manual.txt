@@ -1,0 +1,44 @@
+Manual de Usuario: Programa de Ordenamiento
+    Descripción
+    El Programa de Ordenamiento es una aplicación que te permite ordenar una lista de números utilizando diferentes métodos de ordenamiento. La interfaz gráfica de la aplicación te permite seleccionar el método de ordenamiento deseado, ingresar la lista de números y ver el resultado ordenado paso a paso.
+
+    Requisitos del sistema
+    Sistema operativo: Windows, macOS o Linux.
+    Python 3 instalado en el sistema.
+    Librerías de Python: tkinter, ttk y sorting_algorithms.
+
+    Instalación
+    1. Descarga el archivo del programa de ordenamiento en tu computadora.
+    2. Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Python.
+    3. Instala las librerías necesarias ejecutando los siguientes comandos en la terminal:
+        - pip install tkinter
+        - pip install ttk
+        - pip install sorting_algorithms
+    4. Descomprime el archivo descargado y navega hasta la carpeta del programa.
+
+    Iniciar el programa
+    1. Abre una terminal en la carpeta del programa.
+    2. Ejecuta el siguiente comando para iniciar la aplicación:
+        - python programa_ordenamiento.py
+
+    Uso del programa
+    - Una vez que hayas iniciado el programa, verás la interfaz gráfica con las siguientes opciones:
+        - Elije el método de ordenamiento: Selecciona el método de ordenamiento que deseas utilizar en el menú desplegable.
+        - Por favor ingresar el vector: Ingresa los números que deseas ordenar, separados por espacios.
+        - Generar: El botón "Generar" es una funcionalidad que te permite generar automáticamente una lista de 15 números aleatorios para ser ordenados. \nEsta funcionalidad es útil cuando
+          deseas probar el programa de ordenamiento con una lista predefinida de números aleatorios en lugar de ingresarlos manualmente. 
+          Al presionar el botón "Generar", se generarán 15 números           aleatorios y se colocarán automáticamente en el campo de entrada.
+        - Ordenar: Haz clic en el botón "Ordenar" para iniciar el proceso de ordenamiento.
+        - Resultado: Después de ordenar la lista, verás el resultado en la sección de "Resultado".
+        - Pasos: En la sección de "Pasos", se muestra una lista de los pasos realizados durante el proceso de ordenamiento.
+        - Menú de Ayuda: En la barra de menú, encontrarás la opción "Ayuda" que brinda información general sobre el programa.
+        - Menú By: En la barra de menú, encontrarás la opción "By" que muestra los créditos y la información del desarrollador.
+        - Menú Manual de Usuario: En la opción "Ayuda" del menú, encontrarás la opción "Manual de usuario" que muestra este manual.
+        - Salir: En la barra de herramientas, hay un botón "Salir" para cerrar la aplicación.
+
+    Consideraciones adicionales
+    - Asegúrate de ingresar los números correctamente, separados por espacios, sin ningún otro carácter especial.
+    - Si cometes un error, puedes borrar la lista y volver a ingresarla antes de hacer clic en "Ordenar".
+    - Algunos métodos de ordenamiento pueden requerir más tiempo o recursos dependiendo del tamaño de la lista ingresada.
+
+    ¡Disfruta utilizando el Programa de Ordenamiento y explora los diferentes métodos disponibles para ordenar tus listas de números de manera eficiente! Si tienes alguna pregunta o necesitas más información, consulta la sección de "Ayuda" o "Manual de usuario" en la aplicación.
